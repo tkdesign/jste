@@ -19,9 +19,9 @@ Usage
 First download and include te.min.js, polyfills.min.js and te.css (inside to head tags). Next, download jste-skin/te.png.
 
 ``` html
-<script type="text/javascript" src="te.min.js"></script>
+<script type="text/javascript" src="jste.min.js"></script>
 <script type="text/javascript" src="polyfills.min.js"></script>
-<link type="text/css" rel="stylesheet" href="te.css" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="jste.css" charset="utf-8" />
 ```
 
 After than, create a html-container inside to body tags:
