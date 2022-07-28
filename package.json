@@ -1,0 +1,47 @@
+{
+  "name": "jste",
+  "version": "1.0.0",
+  "description": "JavaScript Text Editor is a javascript Text Editor library. It is a simple HTML editor for modern browsers without frameworks and other dependecies.",
+  "main": "src/index.js",
+  "dependencies": {
+    "prettier": "2",
+    "uglify-js": "3",
+    "uglifycss": "0.0.29"
+  },
+  "devDependencies": {
+    "prettier": "2",
+    "uglify-js": "3"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "proseWrap": "always",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd assets/js && uglifyjs polyfills.js jste.js -c -m -o jste.all.min.js --source-map url=jste.all.min.js.map && cd ../css && uglifycss jste.css > jste.min.css",
+    "dev": "cd assets/js && uglifyjs polyfills.js jste.js -b -o jste.all.js --source-map url=jste.all.js.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkdesign/jste.git"
+  },
+  "keywords": [
+    "text editor",
+    "javascript"
+  ],
+  "author": "Petr Kovalenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkdesign/jste/issues"
+  },
+  "homepage": "https://github.com/tkdesign/jste#readme",
+  "files": [
+    "assets/js/*.js",
+    "assets/js/*.js.map",
+    "assets/css/*.css",
+    "assets/jste-skin/te.png"
+  ]
+}
