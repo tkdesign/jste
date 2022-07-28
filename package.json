@@ -1,7 +1,7 @@
 {
   "name": "jste",
   "version": "1.0.0",
-  "description": "JavaScript Text Editor is a javascript Text Editor library. It is a simple HTML editor for modern browsers without frameworks and other dependecies.",
+  "description": "Simple HTML editor for modern browsers without frameworks and other dependecies.",
   "main": "src/index.js",
   "dependencies": {
     "prettier": "2",
