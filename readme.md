@@ -33,7 +33,7 @@ After than, create a html-container inside to body tags:
 Finally, run this code:
 ``` html
 <script>
-	let elem = jste('#myspan');
+	let elem = jste('#editor');
 	elem.init();
 </script>
 ```
