@@ -1,7 +1,7 @@
 {
   "name": "jste",
   "version": "1.0.0",
-  "description": "Simple HTML editor for modern browsers without frameworks and other dependecies.",
+  "description": "Simple HTML/js editor for modern browsers without frameworks and other dependecies.",
   "main": "src/index.js",
   "dependencies": {
     "prettier": "2",
@@ -29,8 +29,13 @@
     "url": "git+https://github.com/tkdesign/jste.git"
   },
   "keywords": [
-    "text editor",
-    "javascript"
+    "javascript",
+    "js",
+    "vanilla-js",
+    "text-editor",
+    "html-text-editor",
+    "js-text-editor",
+    "editor"
   ],
   "author": "Petr Kovalenko",
   "license": "MIT",
