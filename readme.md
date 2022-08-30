@@ -1,7 +1,7 @@
 ﻿What is JS TE?
 ==================
 
-JavaScript Text Editor is a JavaScript Text Editor library. It is a simple HTML editor for modern browsers without frameworks and other dependecies. And it works with WYSIWYG model.
+JS Text Editor is a JavaScript Text Editor library. It is a simple HTML editor for modern browsers without frameworks and other dependecies. And it works with WYSIWYG model.
 
 Most importantly, it can be integrated into your system in 1 minute. And you can modify it as you want in terms of interface. Even you can change the css classes.
 
