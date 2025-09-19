@@ -9,6 +9,7 @@
 src/jste.js linguist-detectable=true
 src/css/jste.css linguist-detectable=true
 
+index.html linguist-vendored
 README.md linguist-vendored
 LICENSE linguist-vendored
 jest.config.js linguist-vendored
