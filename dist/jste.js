@@ -1,4 +1,4 @@
-function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 /*!
  * 
  * JavaScript Text Editor, https://github.com/tkdesign/jste
@@ -504,7 +504,6 @@ var jste = function jste(selector) {
             styleType = "color";
             styleValue = "rgb(" + styleValue + ")"; // combine color value with rgb
           }
-
           var prevStyles = refuseStyle(styleType); // affect styles to child tags (and extract to the new style attributes)
 
           // change to selected text
@@ -659,7 +658,6 @@ var jste = function jste(selector) {
     // convert strong to b
     /\<em(|\s+.*?)>(.*?)\<\/em>/gim // convert em to i
     ];
-
     htmlReplace = ['<span$2>$3</span>', '', '<p$1>$2</p>', '<b$1>$2</b>', '<i$1>$2</i>'];
 
     // repeat the cleaning process 5 times
